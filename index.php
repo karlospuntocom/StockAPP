@@ -136,7 +136,7 @@ $usuario->VerificacionCuenta();
 
 		return /\d/.test(String.fromCharCode(keynum));
 	}
-	
+
 	//Hora del servidor
 	window.onload=hora;
 	fecha = new Date("<?php echo date('d M Y h:i:s'); ?>");

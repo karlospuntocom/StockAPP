@@ -18,7 +18,7 @@
  **/
 
 $fechaActual = FechaActual();
-/**
+/*
  |-------------------------------------------
  |	Establecimientos
  |-------------------------------------------
@@ -29,7 +29,7 @@ $fechaActual = FechaActual();
  $EstablecimientosArray[]	= $Establecimientos;
  endwhile;
 
-/**
+/*
  |-------------------------------------------
  |	Temas
  |-------------------------------------------
@@ -40,7 +40,7 @@ $fechaActual = FechaActual();
  $TodosTemasArray[]		= $TodosTemas;
  endwhile;
 
-/**
+/*
  |-------------------------------------------
  |	Usuarios
  |-------------------------------------------
@@ -51,7 +51,7 @@ $fechaActual = FechaActual();
  $TodosLosUsuariosArray[]	= $TodosLosUsuariosVar;
  endwhile;
 
-/**
+/*
  |-------------------------------------------
  |	Selector de ProductosDATOS
  |-------------------------------------------
@@ -62,7 +62,7 @@ $fechaActual = FechaActual();
  $SelectorProductosArray[]	= $SelectorProductos;
  endwhile;
 
-/**
+/*
  |-------------------------------------------
  |	Selector de Clientes
  |-------------------------------------------
@@ -73,7 +73,7 @@ $fechaActual = FechaActual();
  $SelectorClientesArray[]	= $SelectorClientes;
  endwhile;
 
-/**
+/*
  |-------------------------------------------
  |	Selector de Productos
  |-------------------------------------------
@@ -84,7 +84,7 @@ $fechaActual = FechaActual();
  $ProductosStockArray[]	= $ProductosStock;
  endwhile;
 
-/**
+/*
  |-------------------------------------------
  |	Selector de Departamentos
  |-------------------------------------------
@@ -95,7 +95,7 @@ $fechaActual = FechaActual();
  $DepartamentoStockArray[]	= $DepartamentoStock;
  endwhile;
 
-/**
+/*
  |-------------------------------------------
  |	Selector de Proveedores
  |-------------------------------------------
@@ -106,7 +106,7 @@ $fechaActual = FechaActual();
  $ProveedoresStockArray[]	= $ProveedoresStock;
  endwhile;
 
-/**
+/*
  |-------------------------------------------
  |	Selector de Unidad
  |-------------------------------------------
@@ -117,7 +117,7 @@ $fechaActual = FechaActual();
  $UnidadStockArray[]= $UnidadStock;
  endwhile;
 
-/**
+/*
  |-------------------------------------------
  |	Selector de IVA Venta
  |-------------------------------------------
@@ -128,7 +128,7 @@ $fechaActual = FechaActual();
  $IVAVentaStockArray[]	= $IVAVentaStock;
  endwhile;
 
-/**
+/*
  |-------------------------------------------
  |	Selector de IVA Venta
  |-------------------------------------------
@@ -139,7 +139,7 @@ $fechaActual = FechaActual();
  $SelectorMonedaArray[]	= $SelectorMoneda;
  endwhile;
 
-/**
+/*
  |-------------------------------------------
  |	Kardex por fechas General
  |-------------------------------------------
@@ -150,7 +150,7 @@ $fechaActual = FechaActual();
  $KardexPorfechasArray[]= $KardexPorfechas;
  endwhile;
 
-/**
+/*
  |-------------------------------------------
  |	Notificaciones Stock
  |-------------------------------------------
@@ -161,7 +161,7 @@ $fechaActual = FechaActual();
  $NotificacionesStockArray[]= $NotificacionesStock;
  endwhile;
 
-/**
+/*
  |-------------------------------------------
  |	Caja
  |-------------------------------------------
@@ -172,7 +172,7 @@ $fechaActual = FechaActual();
  $CajaArray[]	= $Caja;
  endwhile;
 
-/**
+/*
  |-------------------------------------------
  |	Caja
  |-------------------------------------------
@@ -183,7 +183,7 @@ $fechaActual = FechaActual();
  $CajaRegistroArray[]	= $CajaRegistro;
  endwhile;
 
-/**
+/*
  |-------------------------------------------
  |	Caja Apertura
  |-------------------------------------------
@@ -194,7 +194,7 @@ $fechaActual = FechaActual();
  $CajaAperturaRegistroArray[]	= $CajaAperturaRegistro;
  endwhile;
 
-/**
+/*
  |-------------------------------------------
  |	Caja Cierre
  |-------------------------------------------
@@ -205,7 +205,7 @@ $fechaActual = FechaActual();
  $CajaCierreRegistroArray[]	= $CajaCierreRegistro;
  endwhile;
 
-/**
+/*
  |-------------------------------------------
  |	Caja Efectivo
  |-------------------------------------------
@@ -216,7 +216,7 @@ $fechaActual = FechaActual();
  $CajaCierreRegistroEfectivoArray[]	= $CajaCierreRegistroEfectivo;
  endwhile;
 
-/**
+/*
  |-------------------------------------------
  |	Caja Tarjeta
  |-------------------------------------------
@@ -227,7 +227,7 @@ $fechaActual = FechaActual();
  $CajaCierreRegistroTarjetaArray[]	= $CajaCierreRegistroTarjeta;
  endwhile;
 
-/**
+/*
  |-------------------------------------------
  |	Caja Chica
  |-------------------------------------------
@@ -238,7 +238,7 @@ $fechaActual = FechaActual();
  $CajaChicaArray[]	= $CajaChica;
  endwhile;
 
-/**
+/*
  |-------------------------------------------
  |	Caja Chica Registro Entrada Dinero
  |-------------------------------------------
@@ -249,7 +249,7 @@ $fechaActual = FechaActual();
  $CajaChicaRegistroEntradaDineroArray[]	= $CajaChicaRegistroEntradaDinero;
  endwhile;
 
-/**
+/*
  |-------------------------------------------
  |	Caja Chica Registro Salida Dinero
  |-------------------------------------------

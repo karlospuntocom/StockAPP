@@ -1,0 +1,154 @@
+[26-Apr-2018 19:18:26 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in C:\xampp\htdocs\StockAPP\sistema\POO.php:61
+Stack trace:
+#0 C:\xampp\htdocs\StockAPP\sistema\Qualtiva.php(57): require_once()
+#1 C:\xampp\htdocs\StockAPP\sistema\configuracion.php(57): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\StockAPP\instalar\successful.php(2): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\StockAPP\sistema\POO.php on line 61
+[27-Apr-2018 02:18:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in C:\xampp\htdocs\StockAPP\sistema\POO.php:61
+Stack trace:
+#0 C:\xampp\htdocs\StockAPP\sistema\Qualtiva.php(57): require_once()
+#1 C:\xampp\htdocs\StockAPP\sistema\configuracion.php(57): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\StockAPP\instalar\successful.php(2): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\StockAPP\sistema\POO.php on line 61
+[26-Apr-2018 19:18:59 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in C:\xampp\htdocs\StockAPP\sistema\POO.php:61
+Stack trace:
+#0 C:\xampp\htdocs\StockAPP\sistema\Qualtiva.php(57): require_once()
+#1 C:\xampp\htdocs\StockAPP\sistema\configuracion.php(57): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\StockAPP\instalar\successful.php(2): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\StockAPP\sistema\POO.php on line 61
+[26-Apr-2018 19:19:23 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in C:\xampp\htdocs\StockAPP\sistema\POO.php:61
+Stack trace:
+#0 C:\xampp\htdocs\StockAPP\sistema\Qualtiva.php(57): require_once()
+#1 C:\xampp\htdocs\StockAPP\sistema\configuracion.php(57): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\StockAPP\instalar\successful.php(2): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\StockAPP\sistema\POO.php on line 61
+[26-Apr-2018 19:19:24 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in C:\xampp\htdocs\StockAPP\sistema\POO.php:61
+Stack trace:
+#0 C:\xampp\htdocs\StockAPP\sistema\Qualtiva.php(57): require_once()
+#1 C:\xampp\htdocs\StockAPP\sistema\configuracion.php(57): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\StockAPP\instalar\successful.php(2): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\StockAPP\sistema\POO.php on line 61
+[26-Apr-2018 19:19:24 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in C:\xampp\htdocs\StockAPP\sistema\POO.php:61
+Stack trace:
+#0 C:\xampp\htdocs\StockAPP\sistema\Qualtiva.php(57): require_once()
+#1 C:\xampp\htdocs\StockAPP\sistema\configuracion.php(57): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\StockAPP\instalar\successful.php(2): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\StockAPP\sistema\POO.php on line 61
+[26-Apr-2018 19:19:25 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in C:\xampp\htdocs\StockAPP\sistema\POO.php:61
+Stack trace:
+#0 C:\xampp\htdocs\StockAPP\sistema\Qualtiva.php(57): require_once()
+#1 C:\xampp\htdocs\StockAPP\sistema\configuracion.php(57): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\StockAPP\instalar\successful.php(2): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\StockAPP\sistema\POO.php on line 61
+[26-Apr-2018 19:19:34 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in C:\xampp\htdocs\StockAPP\sistema\POO.php:61
+Stack trace:
+#0 C:\xampp\htdocs\StockAPP\sistema\Qualtiva.php(57): require_once()
+#1 C:\xampp\htdocs\StockAPP\sistema\configuracion.php(57): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\StockAPP\instalar\successful.php(2): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\StockAPP\sistema\POO.php on line 61
+[26-Apr-2018 19:19:34 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in C:\xampp\htdocs\StockAPP\sistema\POO.php:61
+Stack trace:
+#0 C:\xampp\htdocs\StockAPP\sistema\Qualtiva.php(57): require_once()
+#1 C:\xampp\htdocs\StockAPP\sistema\configuracion.php(57): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\StockAPP\instalar\successful.php(2): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\StockAPP\sistema\POO.php on line 61
+[26-Apr-2018 19:19:35 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in C:\xampp\htdocs\StockAPP\sistema\POO.php:61
+Stack trace:
+#0 C:\xampp\htdocs\StockAPP\sistema\Qualtiva.php(57): require_once()
+#1 C:\xampp\htdocs\StockAPP\sistema\configuracion.php(57): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\StockAPP\instalar\successful.php(2): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\StockAPP\sistema\POO.php on line 61
+[26-Apr-2018 19:20:04 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in C:\xampp\htdocs\StockAPP\sistema\POO.php:61
+Stack trace:
+#0 C:\xampp\htdocs\StockAPP\sistema\Qualtiva.php(57): require_once()
+#1 C:\xampp\htdocs\StockAPP\sistema\configuracion.php(57): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\StockAPP\instalar\successful.php(2): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\StockAPP\sistema\POO.php on line 61
+[26-Apr-2018 19:21:48 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in C:\xampp\htdocs\StockAPP\sistema\POO.php:61
+Stack trace:
+#0 C:\xampp\htdocs\StockAPP\sistema\Qualtiva.php(57): require_once()
+#1 C:\xampp\htdocs\StockAPP\sistema\configuracion.php(57): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\StockAPP\instalar\successful.php(2): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\StockAPP\sistema\POO.php on line 61
+[26-Apr-2018 19:24:00 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in C:\xampp\htdocs\StockAPP\sistema\POO.php:61
+Stack trace:
+#0 C:\xampp\htdocs\StockAPP\sistema\Qualtiva.php(57): require_once()
+#1 C:\xampp\htdocs\StockAPP\sistema\configuracion.php(57): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\StockAPP\instalar\successful.php(2): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\StockAPP\sistema\POO.php on line 61
+[26-Apr-2018 19:30:51 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in C:\xampp\htdocs\StockAPP\sistema\POO.php:61
+Stack trace:
+#0 C:\xampp\htdocs\StockAPP\sistema\Qualtiva.php(57): require_once()
+#1 C:\xampp\htdocs\StockAPP\sistema\configuracion.php(41): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\StockAPP\index.php(2): include('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\StockAPP\sistema\POO.php on line 61
+[26-Apr-2018 19:32:22 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in C:\xampp\htdocs\StockAPP\sistema\POO.php:61
+Stack trace:
+#0 C:\xampp\htdocs\StockAPP\sistema\Qualtiva.php(57): require_once()
+#1 C:\xampp\htdocs\StockAPP\sistema\configuracion.php(41): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\StockAPP\index.php(2): include('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\StockAPP\sistema\POO.php on line 61
+[26-Apr-2018 19:34:32 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in C:\xampp\htdocs\StockAPP\sistema\POO.php:61
+Stack trace:
+#0 C:\xampp\htdocs\StockAPP\sistema\Qualtiva.php(57): require_once()
+#1 C:\xampp\htdocs\StockAPP\sistema\configuracion.php(41): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\StockAPP\index.php(2): include('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\StockAPP\sistema\POO.php on line 61
+[26-Apr-2018 19:40:44 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 5
+[26-Apr-2018 19:40:44 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 16
+[26-Apr-2018 19:40:44 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 21
+[26-Apr-2018 19:40:44 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 22
+[26-Apr-2018 19:40:44 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 28
+[26-Apr-2018 19:40:44 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 29
+[26-Apr-2018 19:40:44 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 30
+[26-Apr-2018 19:40:44 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 31
+[26-Apr-2018 19:40:44 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 32
+[26-Apr-2018 19:40:44 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 38
+[26-Apr-2018 19:40:44 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 39
+[26-Apr-2018 19:40:44 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 40
+[26-Apr-2018 19:40:44 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 41
+[26-Apr-2018 19:40:44 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 47
+[26-Apr-2018 19:40:44 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 48
+[26-Apr-2018 19:40:44 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 54
+[26-Apr-2018 19:40:44 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 55
+[26-Apr-2018 19:40:44 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 65
+[26-Apr-2018 19:40:44 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\tipo-compra.php on line 11
+[26-Apr-2018 19:40:44 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\footer.php on line 3
+[26-Apr-2018 19:40:44 America/Bogota] PHP Notice:  Use of undefined constant GOOGLEANALYTICS - assumed 'GOOGLEANALYTICS' in C:\xampp\htdocs\StockAPP\sistema\clase\sistema.clase.php on line 40
+[26-Apr-2018 19:41:20 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 5
+[26-Apr-2018 19:41:20 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 16
+[26-Apr-2018 19:41:20 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 21
+[26-Apr-2018 19:41:20 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 22
+[26-Apr-2018 19:41:20 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 28
+[26-Apr-2018 19:41:20 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 29
+[26-Apr-2018 19:41:20 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 30
+[26-Apr-2018 19:41:20 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 31
+[26-Apr-2018 19:41:20 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 32
+[26-Apr-2018 19:41:20 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 38
+[26-Apr-2018 19:41:20 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 39
+[26-Apr-2018 19:41:20 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 40
+[26-Apr-2018 19:41:20 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 41
+[26-Apr-2018 19:41:20 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 47
+[26-Apr-2018 19:41:20 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 48
+[26-Apr-2018 19:41:20 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 54
+[26-Apr-2018 19:41:20 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 55
+[26-Apr-2018 19:41:20 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\menu_admin.php on line 65
+[26-Apr-2018 19:41:20 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\tipo-compra.php on line 11
+[26-Apr-2018 19:41:20 America/Bogota] PHP Notice:  Use of undefined constant URLBASE - assumed 'URLBASE' in C:\xampp\htdocs\StockAPP\sistema\modulo\footer.php on line 3
+[26-Apr-2018 19:41:20 America/Bogota] PHP Notice:  Use of undefined constant GOOGLEANALYTICS - assumed 'GOOGLEANALYTICS' in C:\xampp\htdocs\StockAPP\sistema\clase\sistema.clase.php on line 40

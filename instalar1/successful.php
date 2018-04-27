@@ -61,7 +61,7 @@ include('config.php');
 						<h2>Finalizando...</h2>
 					</header>
 					<div class="uk-alert uk-alert-success">Tratando de conectarse a la base de datos...
-						<?php 
+						<?php
 						$con=mysqli_connect(HOST,USER,PASSWORD,DB);
 
 						// Check connection
@@ -84,7 +84,7 @@ include('config.php');
 						exit('Connect Error (' . mysqli_connect_errno() . ') '
 								. mysqli_connect_error());
 					}
-					
+
 					@$sql = file_get_contents('Sql/StockAPP.sql');
 					if (!$sql){
 						exit ('<div class="uk-alert uk-alert-danger">Vaya, algo sali&oacute; mal, no fue posible abrir el archivo SQL!</div>');

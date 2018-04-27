@@ -6,7 +6,8 @@
     <meta charset="utf-8">
     <title>Iniciar Sesi&oacute;n | <?php echo TITULO ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="canonical" href="<?php echo URLBASE ?>">
+    <!-- Comentar la siguiente línea SIEMPRE!!! -->
+	<!-- <link rel="canonical" href="<?php echo URLBASE ?>"> -->
     <link rel="shortcut icon" href="<?php echo ESTATICO ?>tema/img/favicon.ico">
     <link href="<?php echo ESTATICO ?>tema/<?php echo TEMA ?>/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <style type="text/css">
@@ -18,8 +19,8 @@
 		margin-top: 30px;
 	}
 
-	#loginbox > div:first-child {        
-		padding-bottom: 10px;    
+	#loginbox > div:first-child {
+		padding-bottom: 10px;
 	}
 
 	.iconmelon {
@@ -36,7 +37,7 @@
 		margin-bottom: 10px;
 	}
 
-	.panel {    
+	.panel {
 		background-color: transparent;
 	}
 
@@ -49,7 +50,7 @@
 		width: 100%;
 		height: 100%;
 		overflow: hidden;
-		top: 0;                        
+		top: 0;
 		bottom: 0;
 		left: 0;
 		right: 0;
@@ -80,10 +81,10 @@
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<div class="container">    
-        
-		<div id="loginbox" class="mainbox col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3"> 
-			
+	<div class="container">
+
+		<div id="loginbox" class="mainbox col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+
 			<div class="row">
 				<center class="logo">
 					<a href="<?php echo URLBASE ?>" title="Qualtiva" alt="Qualtiva">
@@ -91,19 +92,19 @@
 					</a>
 				</center>
 			</div>
-			
+
 			<div class="panel panel-default" >
 				<div class="panel-heading">
 					<div class="panel-title text-center">Iniciar Sesi&oacute;n</div>
-				</div>     
+				</div>
 
 				<div class="panel-body">
 
 					<form name="form" id="form" class="form-horizontal" method="POST">
-					   
+
 						<div class="input-group">
 							<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-							<input id="user" type="text" class="form-control" name="usuarioPost" value="" placeholder="Escriba su Nombre de Usuario">                                        
+							<input id="user" type="text" class="form-control" name="usuarioPost" value="" placeholder="Escriba su Nombre de Usuario">
 						</div>
 
 						<div class="input-group">
@@ -114,14 +115,14 @@
 						<div class="form-group">
 							<!-- Button -->
 							<div class="col-sm-12 controls">
-								<button type="submit" href="#" name="sesionPost" class="btn btn-primary pull-right"><i class="glyphicon glyphicon-log-in"></i> Iniciar Sesi&oacute;n</button>                          
+								<button type="submit" href="#" name="sesionPost" class="btn btn-primary pull-right"><i class="glyphicon glyphicon-log-in"></i> Iniciar Sesi&oacute;n</button>
 							</div>
 						</div>
 
-					</form>     
+					</form>
 
-				</div>                     
-			</div>  
+				</div>
+			</div>
 		</div>
 	</div>
 </body>

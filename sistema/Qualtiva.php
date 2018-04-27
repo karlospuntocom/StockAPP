@@ -29,7 +29,9 @@ define('ENTORNO_DESARROLLO', false);
 // Barra separadora
 define('DS', DIRECTORY_SEPARATOR);
 //Archivos Estaticos del Proyecto
-define('ESTATICO', URLBASE.'estatico/');
+define('ESTATICO', 'estatico/');
+//Comentar la sieguiente línea SIEMPRE!!
+// define('ESTATICO', URLBASE.'estatico/');
 // Directorio de las imgenes para las noticias del Proyecto
 define('IMGNOTICIAS', ESTATICO.'img/noticias/');
 // Directorio Root del Proyecto
@@ -47,7 +49,7 @@ ini_set('session.cookie_httponly', 1);
 // Utilizar únicamente cookies para la propagación del identificador de sesión.
 ini_set('session.use_only_cookies', 1);
 // Establecer la zona horaria predeterminada UTC.
-date_default_timezone_set(HORARIO);
+date_default_timezone_set('America/Bogota');
 
 // Directorios Importantes NO EDITAR DE AQUI EN ADELANTE
 require_once (SISTEMA.'clase.php');

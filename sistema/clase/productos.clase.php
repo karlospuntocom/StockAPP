@@ -59,16 +59,17 @@ class Productos extends Conexion {
 		if(isset($_POST['ActualizarInventario'])){
 			$IdProducto			= filter_var($_POST['IdProducto'], FILTER_VALIDATE_INT);
 			$CantidadProducto	= filter_var($_POST['CantidadProducto'], FILTER_VALIDATE_INT);
-			$FechaActual		= FechaActual().' '.HoraActual();
+			$FechaActual		= FechaActual();
+			$HoraActual =  HoraActual();
 			$ActualizarInventarioSql= $this->Conectar()->query("UPDATE `producto` SET stock=stock+{$CantidadProducto} WHERE id='{$IdProducto}'");
 
-			$InformacionProductoSql = $this->Conectar()->query("SELECT precioventa, stock FROM `producto` WHERE id='{$IdProducto}'");
+			$InformacionProductoSql = $this->Conectar()->query("SELECT preciocosto, stock FROM `producto` WHERE id='{$IdProducto}'");
 			$InformacionProducto	= $InformacionProductoSql->fetch_array();
 			$StockProducto	= $InformacionProducto['stock']; // Stock del Producto
-			$PrecioUnitario = $InformacionProducto['precioventa']; // Precio por Unidad
-			$PrecioTotal	= $CantidadProducto*$InformacionProducto['precioventa']; // Precio Total
+			$PrecioUnitario = $InformacionProducto['preciocosto']; // Precio por Unidad
+			$PrecioTotal	= $CantidadProducto*$InformacionProducto['preciocosto']; // Precio Total
 			// Registro Kardex
-			$KardexSalidadLogSql	= $this->Conectar()->query("INSERT INTO `kardex` (`producto`, `entrada`, `salida`, `stock`, `preciounitario`, `preciototal`, `detalle`, `fecha`) VALUES ('{$IdProducto}', '{$CantidadProducto}', '0', '{$StockProducto}', '{$PrecioUnitario}', '{$PrecioTotal}', 'Ingreso de Producto', '{$FechaActual}')");
+			$KardexSalidadLogSql	= $this->Conectar()->query("INSERT INTO `kardex` (`producto`, `entrada`, `salida`, `stock`, `preciounitario`, `preciototal`, `detalle`, `fecha`, `hora`) VALUES ('{$IdProducto}', '{$CantidadProducto}', '0', '{$StockProducto}', '{$PrecioUnitario}', '{$PrecioTotal}', 'Ingreso de Producto', '{$FechaActual}', '{$HoraActual}')");
 			if($ActualizarInventarioSql && $KardexSalidadLogSql == true){
 				echo'
 				<div class="alert alert-dismissible alert-success">
@@ -298,4 +299,3 @@ class Productos extends Conexion {
 		}
 	}
 }
-

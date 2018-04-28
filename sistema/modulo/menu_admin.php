@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="navbar-header">
 			<div class="navbar-brand">
-				<a href="<?php echo URLBASE ?>" class="navbar-brand"><img src="<?php echo ESTATICO ?>img/<?php $sistema->Logo(); ?>" alt="Logo <?php echo TITULO ?>" width="230px"/></a>
+				<a href="index.php" class="navbar-brand"><img src="<?php echo ESTATICO ?>img/<?php $sistema->Logo(); ?>" alt="Logo <?php echo TITULO ?>" width="100px"/></a>
 			</div>
 			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
 				<span class="icon-bar"></span>
@@ -13,26 +13,26 @@
 		<div class="navbar-collapse collapse" id="navbar-main">
 			<ul class="nav navbar-nav">
 				<li class="menu" id="reviewsMenu">
-					<a href="<?php echo URLBASE ?>">Inicio</a>
+					<a href="index.php">Inicio</a>
 				</li>
 				<li class="dropdown menu">
 					<a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">Kardex <span class="caret"></span></a>
 					<ul class="dropdown-menu" aria-labelledby="download">
 						<li><a href="<?php echo URLBASE ?>kardex">Kardex General</a></li>
-						<li><a href="<?php echo URLBASE ?>kardex-por-producto">Kardex Por Productos</a></li>
+						<!-- <li><a href="<?php echo URLBASE ?>kardex-por-producto">Kardex Por Productos</a></li> -->
 					</ul>
 				</li>
 				<li class="dropdown menu">
 					<a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">Productos <span class="caret"></span></a>
 					<ul class="dropdown-menu" aria-labelledby="download">
 						<li><a href="<?php echo URLBASE ?>productos">Productos</a></li>
-						<li><a href="<?php echo URLBASE ?>nuevo-producto">Nuevo Producto</a></li>
+						<!-- <li><a href="<?php echo URLBASE ?>nuevo-producto">Nuevo Producto</a></li>
 						<li><a href="<?php echo URLBASE ?>departamentos">Departamentos</a></li>
 						<li><a href="<?php echo URLBASE ?>proveedores">Proveedores</a></li>
-						<li><a href="<?php echo URLBASE ?>impuestos">Impuestos</a></li>
+						<li><a href="<?php echo URLBASE ?>impuestos">Impuestos</a></li> -->
 					</ul>
 				</li>
-				<li class="dropdown menu">
+				<!-- <li class="dropdown menu">
 					<a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">Ventas <span class="caret"></span></a>
 					<ul class="dropdown-menu" aria-labelledby="download">
 						<li><a href="<?php echo URLBASE ?>registro-de-ventas">Registro De Ventas</a></li>
@@ -40,21 +40,21 @@
 						<li><a href="<?php echo URLBASE ?>venta-bruta-usuarios">Venta Bruta D&iacute;a</a></li>
 						<li><a href="<?php echo URLBASE ?>resumen">Resumen</a></li>
 					</ul>
-				</li>
-				<li class="dropdown menu">
+				</li> -->
+				<!-- <li class="dropdown menu">
 					<a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">Usuarios <span class="caret"></span></a>
 					<ul class="dropdown-menu" aria-labelledby="download">
 						<li><a href="<?php echo URLBASE ?>vendedores">Vendedores y Usuarios</a></li>
 						<li><a href="<?php echo URLBASE ?>nuevo-vendedor">Agregar Nuevo Vendedor</a></li>
 					</ul>
-				</li>
-				<li class="dropdown menu">
+				</li> -->
+				<!-- <li class="dropdown menu">
 					<a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">Sistema<span class="caret"></span></a>
 					<ul class="dropdown-menu" aria-labelledby="download">
 						<li><a href="<?php echo URLBASE ?>cajas">Cajas Del Sistema</a></li>
 						<li><a href="<?php echo URLBASE ?>ajuste-sistema">Ajustes De La Aplicaci&oacute;n</a></li>
 					</ul>
-				</li>
+				</li> -->
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				<?php include(MODULO."notificaciones-inventario.php");?>

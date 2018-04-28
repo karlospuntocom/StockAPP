@@ -31,8 +31,8 @@ define('TITULO',	'Carulla');
  |-------------------------------------------
  */
 
- //Comentar la siguiente línea siempre!!!!
-// define('URLBASE', '');
+ //Dejar vacía la siguiente constante siempre!!!!
+define('URLBASE', '');
 
 /*
  |--------------------------------------------

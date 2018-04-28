@@ -82,7 +82,7 @@ $usuario->VerificacionCuenta();
 							</td>
 							<td>
 							<button class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></button>
-							<a href="<?php echo URLBASE ?>editar-producto/<?php echo $ProductosStockRow['id']; ?>/<?php echo $enlace->LimpiaCadenaTexto($ProductosStockRow['nombre']); ?>/" class="btn btn-primary btn-xs"><i class="fa fa-pencil-square-o"></i></a>
+							<a href="<?php echo URLBASE ?>editar-producto?id=<?php echo $ProductosStockRow['id']; ?>" class="btn btn-primary btn-xs"><i class="fa fa-pencil-square-o"></i></a>
 							<button class="btn btn-success btn-xs"  type="button" data-toggle="modal" data-target="#AgrearProducto<?php echo $ProductosStockRow['id']; ?>"><i class="fa fa-plus"></i></button>
 							</td>
 						</tr>

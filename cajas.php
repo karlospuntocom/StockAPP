@@ -24,6 +24,7 @@ $fechaActual = FechaActual();
 	}elseif($usuarioApp['id_perfil']==1){
 		include (MODULO.'menu_admin.php');
 	}else{
+		// echo'<meta http-equiv="refresh" content="0;url=cerrar-sesion"/>';
 		echo'<meta http-equiv="refresh" content="0;url='.URLBASE.'cerrar-sesion"/>';
 	}
 	//Menu Fin
@@ -326,10 +327,10 @@ $fechaActual = FechaActual();
 							<?php
 							$ResumenVentaDiaTotalSql = $db->SQL("SELECT SUM(total) AS total FROM `factura` WHERE fecha='{$fechaActual}' AND habilitado='1'");
 							$ResumenVentaDiaTotal = $ResumenVentaDiaTotalSql->fetch_array();
-							
+
 							$ResumenVentaDiaEfectivoSql = $db->SQL("SELECT SUM(total) AS total FROM `factura` WHERE tipo='1' AND fecha='{$fechaActual}' AND habilitado='1'");
 							$ResumenVentaDiaEfectivo = $ResumenVentaDiaEfectivoSql->fetch_array();
-							
+
 							$ResumenVentaDiaTarjetaSql = $db->SQL("SELECT SUM(total) AS total FROM `factura` WHERE  tipo='0' AND fecha='{$fechaActual}' AND habilitado='1'");
 							$ResumenVentaDiaTarjeta = $ResumenVentaDiaTarjetaSql->fetch_array();
 							?>
@@ -592,7 +593,7 @@ $fechaActual = FechaActual();
 		var keynum = window.event ? window.event.keyCode : e.which;
 		if ((keynum == 8) || (keynum == 46))
 		return true;
-		 
+
 		return /\d/.test(String.fromCharCode(keynum));
 	}
 	</script>

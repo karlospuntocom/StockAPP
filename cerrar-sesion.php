@@ -22,6 +22,7 @@ $usuario->VerificacionCuenta();
 		include (MODULO.'menu_admin.php');
 	}else{
 		echo'<meta http-equiv="refresh" content="0;url='.URLBASE.'cerrar-sesion"/>';
+		// echo'<meta http-equiv="refresh" content="0;url=cerrar-sesion"/>';
 	}
 	//Menu Fin
 	?>

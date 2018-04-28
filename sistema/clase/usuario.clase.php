@@ -16,7 +16,7 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  **/
- 
+
 class Usuario extends Conexion {
 
 	public function LoginUsuario(){
@@ -24,12 +24,12 @@ class Usuario extends Conexion {
 		if (isset($_POST['sesionPost'])) {
 			$usuarioPost		= isset($_POST['usuarioPost']) ? $_POST['usuarioPost'] : null;
 			$contrasena			= isset($_POST['contrasenaPost']) ? $_POST['contrasenaPost'] : null;
-			$sha_pass_hash		= sha1(strtoupper($usuarioPost) . ":" . strtoupper($contrasena));
-			$UsuarioExisteSQL	= $this->Conectar()->query("SELECT `usuario` , `contrasena` FROM `usuario` WHERE `usuario`='{$usuarioPost}' AND `contrasena`='{$sha_pass_hash}' AND habilitado='1'");
+			// $sha_pass_hash		= sha1(strtoupper($usuarioPost) . ":" . strtoupper($contrasena));
+			$UsuarioExisteSQL	= $this->Conectar()->query("SELECT `usuario` , `contrasena` FROM `usuario` WHERE `usuario`='{$usuarioPost}' AND `contrasena`='{$contrasena}' AND habilitado='1'");
 			$UsuarioExiste		= $UsuarioExisteSQL->num_rows;
 			if ($UsuarioExiste == 1) {
 				$_SESSION['usuario']	=  isset($_POST['usuarioPost']) ? $_POST['usuarioPost'] : null;
-				header("Location: " . URLBASE . "");
+				header("Location: index.php");
 				exit;
 			}
 		}

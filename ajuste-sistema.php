@@ -29,6 +29,7 @@ $usuario->ZonaAdministrador();
 		include (MODULO.'menu_admin.php');
 	}else{
 		echo'<meta http-equiv="refresh" content="0;url='.URLBASE.'cerrar-sesion"/>';
+		// echo'<meta http-equiv="refresh" content="0;url=cerrar-sesion"/>';
 	}
 	//Menu Fin
 	?>
@@ -303,7 +304,7 @@ $usuario->ZonaAdministrador();
 				<div class="col-md-12">
 					<div class="col-md-8">
 						<form method="post" action="" class="form-horizontal" enctype="multipart/form-data">
-							<input class="form-control" type="file" name="fileToUpload" id="fileToUpload" accept="image/*" required /> 
+							<input class="form-control" type="file" name="fileToUpload" id="fileToUpload" accept="image/*" required />
 							<button type="submit" name="CambiarLogo" id="CambiarLogo" class="btn btn-primary btn-block"><i class="fa fa-picture-o"></i> Cambiar Logo</button>
 						</form>
 					</div>
@@ -346,14 +347,14 @@ $usuario->ZonaAdministrador();
 				</ul>
 			</div>
 			<div class="row">
-			<?php 
+			<?php
 			//init
 			//put this function where it belongs plz
 			function get_content_from_github($url) {
 				//returns an array with all the content that the function will get
 				$ch = curl_init();
 				curl_setopt($ch,CURLOPT_URL,$url);
-				curl_setopt($ch,CURLOPT_RETURNTRANSFER,1); 
+				curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);
 				curl_setopt($ch,CURLOPT_CONNECTTIMEOUT,1);
 				$content = curl_exec($ch);
 				curl_close($ch);
